@@ -3,6 +3,14 @@
 export default () => ({
   entries: {},
   entry: {
-    username: ''
-  }
+    username: '',
+    filters: {
+      type: '',
+      page: 1,
+      per_page: 5,
+      sort: ''
+    }
+  },
+  fileSource: {},
+  repositories: []
 })

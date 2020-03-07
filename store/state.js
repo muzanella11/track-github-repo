@@ -1,5 +1,7 @@
 export default () => ({
+  brand: 'Tracker Github Repository',
   layoutSettings: {
+    titleHeader: 'Tracker Github Repository',
     titleApps: null,
     drawer: null,
     toolbar: true,

@@ -104,7 +104,7 @@ export default {
     goToDetailPage () {
       if (!this.entries.login) return false
 
-      window.location.href = `/${this.entries.login}`
+      window.location.href = `/users/${this.entries.login}`
     }
   }
 }

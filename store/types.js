@@ -1,4 +1,4 @@
-const NAMESPACE = 'GLOBAL'
+const NAMESPACE = 'ROOT'
 
 /** ************************* For Mutations ***************************************/
 export const SET_STATE = `${NAMESPACE}_SET_STATE`

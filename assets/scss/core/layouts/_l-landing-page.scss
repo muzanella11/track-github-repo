@@ -1,0 +1,32 @@
+/******************************************
+  Some tips for creating layouts :
+  - Add `l` prefix before the name of layouts
+  - Or Just copy paste this structure of styling code into your new layouts styling file
+  - Dont forget to register your layouts into `_layouts.scss`
+******************************************/
+/** This Place For Layouts Landing Page **/
+.#{$namespace} {
+  & .l-landing-page {
+    & .landing-page {
+      &__input-field {
+        & .mdi {
+          font-size: 24px;
+          margin-left: 8px;
+          color: $color-green;
+
+          &.error {
+            color: $color-red;
+          }
+        }
+
+        & .avatar {
+          width: 38px;
+          border-radius: 4px;
+          margin-left: 8px;
+        }
+      }
+    }
+  }
+}
+
+/* ************************************ */
